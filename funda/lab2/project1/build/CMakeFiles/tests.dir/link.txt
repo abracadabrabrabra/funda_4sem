@@ -1,0 +1,1 @@
+/usr/bin/c++ -g --coverage -fprofile-arcs -ftest-coverage -fsanitize=address -fsanitize=leak CMakeFiles/tests.dir/tests/test_my_lib.cpp.o -o tests  libmy_lib.a lib/libgtest_main.a -lasan lib/libgtest.a 
